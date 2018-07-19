@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { Navbar, Nav, NavItem, Jumbotron, Button, } from 'react-bootstrap';
+import Header from './Header';
+import Recipes from './Recipes';
+import Footer from './Footer'
+
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        
+      <div>
+        <Header />
+        <Recipes />
+        <Footer />
       </div>
     );
   }
